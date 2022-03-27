@@ -31,6 +31,14 @@ donald.name="Donald"
 user.friends.push("Ann")
 console.log(user)
 console.log(donald)
+const clone=[]
+for (let i=0; i<user.friends.length;i++){
+            const str=<li>${user.friends[i]}</li>;
+    clone.push(str)
+}
+console.log(clone)
+
+// www.youtube.com/watch?v=qMRhXenpz6Q&ab_channel=BoringFrontend
 //
 // const ted=user
 // ted.age=12
